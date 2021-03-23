@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "출력하기"
+title:  "printf"
 date:   2021-03-23 22:58:43 +0900
 categories: jekyll update
 ---
