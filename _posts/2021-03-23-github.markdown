@@ -1,18 +1,10 @@
 ---
 layout: single
-title:  "github"
+title:  "git 명령어"
 date:   2021-03-23 22:58:43 +0900
-categories: github add commit push
+categories: git git git
 ---
 
-**git add .**
-* 모든 파일 올리기 , 수정된 것이 있다면 그것만 올라간다
+# Git 명령어
 
-**git commit-m "message"**
-* " " 에 있는 내용이 올라간다 
 
-**git push -u origin master**
-* 내 로컬 저장소에 있는 것들이 repository에 올라간다
-
-**error 처리  ( failed to push some refs to 'https://github .. ...**
-* 강제로 푸쉬해서 처리함 ( git push -u origin +master )
