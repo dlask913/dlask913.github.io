@@ -11,8 +11,20 @@ comments : true
 ```c
 #include <stdio.h>
 int main() {
-	printf("드디어 했다");
+	printf("Hello World!");
 }
+```
+
+```java
+public class Greeting {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+```python
+print(" Hello World!");
 ```
 
 
