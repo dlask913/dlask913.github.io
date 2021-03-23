@@ -5,6 +5,38 @@ date:   2021-03-23 22:58:43 +0900
 categories: git git git
 ---
 
-# Git 명령어
+## git + enter
 
+**start a working area**
+'clone' : repository를 새로운 디렉에 복사
+'init' : 새로운 repository 생성
+
+**work on the current change**
+'add' : 작업 디렉상의 변경 내용을 staging area에 추가
+'mv' : 이동 혹은 이름 변경
+'restore' : 회복
+'rm' : 지우기
+'sparse-checkout' : 저장소에서 특정 디렉토리나 파일만 보이도록 체크아웃하는 기능
+
+**examine the history and state**
+'bisect' : 이진탐색 사용
+'diff' : 변화 보여줌
+'grep' : 파일내용 검색
+'log' : commit history 조회
+'show ' : commit 정보 조회
+'status' : 파일 상태 확인
+
+**grow, mark and tweak your common history**
+'branch' : branch 생성, 나열, 이름 변경 및 삭제
+'commit' : repository 변화 기록
+'merge' : 2개 이상 합치기
+'rebase' : 얘도 합치기 ( merge 보다 깔끔 )
+'reset' : 리셋
+'switch' : branch 변경
+'tag' : tag 생성, 나열, 삭제 및 확인
+
+**collaborate**
+'fetch' : 원격 저장소의 커밋들을 로컬 저장소로 가져온다 ( 자동 병합 X )
+'pull' : 원격 저장소의 커밋들을 로컬 저장소로 가져온다 ( 자동 병합 O )
+'push' : 원격저장소에 push
 
